@@ -1,0 +1,33 @@
+
+body{
+    background-image: url(fundo-gradiente-rosa-luxo-rosa-dourado_987686-471.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center
+    
+    
+ }
+.form-container{
+    display: flex;
+    justify-content:center ;
+    border-radius:10px ;
+    
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgb(65, 35, 49);
+    background-color: white;
+}
+.l{
+    background-color:rgb(250, 189, 212);
+    border-radius: 20px;
+    margin: 2px;
+    align-items:center;
+}
+

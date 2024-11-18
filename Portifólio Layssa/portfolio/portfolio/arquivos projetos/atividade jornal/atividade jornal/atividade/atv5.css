@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    background-color: rgb(250, 142, 69);
+    font-size: 25px;
+    
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+}
+P2{
+   font-family: "Trirong", serif;
+   text-align: center;
+   font-size: 30px;
+
+}
+a{
+    color: white;
+    font-size: medium;
+   
+}
+nav{
+    text-align: left;
+}

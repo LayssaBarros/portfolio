@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fale.css">
+     <!---BOOTSTRAP ICONS-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <!---BOOTSTRAP icons fim-->
+     <link rel="icon" type="image/png" sizes="16x16"  href="imagens do projeto/favicon-16x16.png">
+     <meta name="msapplication-TileColor" content="#ffffff"> 
+     <meta name="theme-color" content="#ffffff">
+    <title>fale comigo</title>
+</head>
+<body>
+    <div class="msg">
+        
+        
+         <div class="titulo">
+         <h1>Fale <span>comigo:</span></h1><br><br>
+         </div><!--titulo-->
+
+         <div class="texto">
+            <form action="https://formsubmit.co/layssa.barros@aluno.senai.br" method="POST"> 
+                <p class="txtfale">Nome:</p>
+                <input type="text" id="nome" name="nome" class="caixatxt" required ><br>
+                <p class="txtfale2">Email:</p>
+                <input type="email" id="email" name="email" class="caixatxt2" required><br>
+                <p class="txtfale1">Número de telefone:</p>
+                <input type="tel" id="telefone" name="telefone" class="caixatxt1"><br>
+                <p class="txtfale3">Mensagem:</p>
+                <textarea id="mensagem" name="mensagem" class="caixatxt3" required></textarea><br><br>
+                <button class="btn" id="botao" type="submit" >Enviar</button>
+
+                <input type="hidden" name="_subject" value="Novo Contato!">
+                <input type="text" name="_honey" style="display:none">
+            </form>
+           </div><!--Caixa e texto-->
+        
+       
+     </div>
+    <aside>
+         
+            <div class="botoes">
+                <a href="index.html" class="bot3"><button><i class="bi bi-house-heart-fill"></i></button></a><br><br>
+                <a href="https://api.whatsapp.com/send?phone=5579999393039&text=Ol%C3%A1!%20Desejo%20falar%20com%20Layssa%20Barros." target="_blank" class="bot4"><button><i class="bi bi-whatsapp"></i></button></a>                
+            </div>
+    
+        
+    </aside>
+
+    
+</body>
+</html>

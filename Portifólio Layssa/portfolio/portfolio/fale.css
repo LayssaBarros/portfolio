@@ -1,0 +1,151 @@
+.msg{
+    text-align: center;
+    font-family: "Raleway", sans-serif; 
+    margin-top: 150px;
+}
+.titulo h1{
+    font-size: 50px;
+    color: rgb(5, 5, 5);
+}
+.titulo span{
+    color: rgb(252, 80, 137);
+    font-size: 50px;
+}
+.msg .texto .txtfale{
+    font-size: 16px;
+    color: rgb(5, 5, 5);
+    margin-left: -35%; ;
+    margin-top: -3%;
+    top: 0;
+}
+.msg .texto .txtfale1{
+    font-size: 16px;
+    color: rgb(5, 5, 5);
+    margin-left: -30%; ;
+    margin-top: 3%;
+    top: 0;
+}
+.msg .texto .txtfale2{
+    font-size: 16px;
+    color: rgb(5, 5, 5);
+    margin-left:15% ;
+    margin-top: -4%;
+    top: 0;
+}
+.msg .texto .txtfale3{
+    font-size: 16px;
+    color: rgb(5, 5, 5);
+    margin-left: -33%; ;
+    margin-top: 2%;
+    top: 0;
+}
+
+
+aside  {
+    background-color: pink;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-display: flex;
+    width: 12vw;
+    margin-top: 5px;
+    position: fixed;
+    top: 0;
+}
+
+aside .botoes .bot3 button{
+    width: 170%;
+    height: 70%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(252, 80, 137) ;
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin: 0 -20% ;
+    margin-top:20%;
+}
+
+ aside .botoes .bot4 button{
+    width: 170%;
+    height: 70%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(252, 144, 180); 
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin: 0 -20%;
+}
+.texto .caixatxt {
+    width: 20%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(247, 163, 191); 
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-left:-20%;
+    top: 0;
+}
+.texto .caixatxt2 {
+    width: 20%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color:rgb(252, 80, 137) ;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-left: 30%;
+    margin-top:-55%;  
+    top: 0;
+    
+}
+.texto .caixatxt1{
+    width: 45%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(247, 163, 191); 
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-top:-20%;
+    top: 0;
+}
+.texto .caixatxt3{
+    width: 45%;
+    height: 110px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(252, 80, 137); 
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-left: 5%;
+    margin-top:0%;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color:rgb(247, 163, 191); 
+    font-size: 22px;
+    cursor: pointer;
+    color:white;
+    margin-top: 2%;
+    margin-left: 5%;
+    transition: .2s;
+   
+}
+.btn:hover{
+    box-shadow: 0px 0px 8px #ae1d52;
+    transform: scale(1.05);
+}
+

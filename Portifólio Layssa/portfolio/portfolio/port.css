@@ -1,0 +1,329 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    background-color: white;
+    height: 100vh;
+   
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.flex{
+    display: flex;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header  a{
+    color: rgb(252, 80, 137);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: rgb(247, 163, 191);
+    transform: scale(1.05);
+  
+}
+
+header nav ul{
+    list-style-type: none ;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+
+}
+header .botaoContato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgb(247, 163, 191);
+    border: 0;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+header .botaoContato button:hover{
+    box-shadow: 0px 0px 8px rgb(109, 19, 49); 
+}
+
+h2.titulo{
+  color: rgb(248, 34, 105);
+  font-size: 40px;
+  text-align: center;
+}
+h2.titulo span{
+    color: rgb(0, 0, 0) ;
+}
+
+
+/*estilo do Home Page */
+section.toposite{
+    padding: 40px 4%;
+}
+main .img-topo-site img{
+    width: 350px;
+    height: 350px;
+}
+
+section.toposite .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+section.toposite h1{
+    color:rgb(252, 80, 137) ;
+    font-size: 35px;
+}
+.toposite .img-topo-site img{
+       position: relative;
+       animation: flutuar 3s ease-in-out infinite alternate;
+
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:30px;
+    }
+}
+
+/*Sobre Mim*/
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.Sobre .flex{
+    margin-top: 7%;
+    align-items: center;
+    gap: 50px;
+}
+main .imgsobre img{
+    width: 280px;
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0px 0px 8px rgb(248, 34, 105); 
+    
+}
+.Sobre .txtsobre h2 {
+    font-size: 40px;
+
+}
+.Sobre .txtsobre span{
+    color:  rgb(252, 80, 137);
+    
+    
+}
+ .btnsocial .botI  button  {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(252, 80, 137) ;
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+ }
+
+.btnsocial .botG button  {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(247, 163, 191); 
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+}
+
+/*Habilidades*/
+
+section.habilidades{
+    padding: 40px 4%;
+    margin-top:7% ;
+    background-color: rgb(255, 201, 221);
+}
+
+section.habilidades .flex{
+    gap: 60px; 
+}
+
+ .habilidades .habilidades-box{
+    color: rgb(4, 4, 4);
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+ }
+
+ .habilidades .habilidades-box:hover{
+      transform: scale(1.05);
+      box-shadow: 0px 0px 20px rgba(248, 34, 105, 0.438);
+ }
+
+ .habilidades .habilidades-box i{
+    font-size: 60px;
+    color: rgb(252, 80, 137);
+ }
+
+ .habilidades .habilidades-box h3{
+     font-size: 28px;
+     margin: 15px 0px;
+ }
+ 
+ /*projetos*/
+ section.projetos{
+    padding: 40px 4%;
+    
+    display: flex;
+    justify-content:center ;
+    min-height: 100vh; 
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.card-list .card-item{
+    list-style:none ;
+    margin-top: 60px;
+
+}
+
+ .card-list .card-item .card-link{
+    user-select: none;
+    display: block;
+    background:rgb(247, 208, 222); 
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 10px 10px #8b8a8a7f;
+    border: 2px solid transparent;
+    transition:0.2s ease;
+}
+
+
+.card-list .card-item .card-link:hover{
+  border-color:rgb(252, 81, 138) ;
+}
+
+.card-list .card-link .card-image{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.card-list .card-link .badge{
+    color:rgb(252, 80, 137) ;
+    padding: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background-color:rgb(250, 175, 196);  
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.card-list .card-link .card-title{
+    font-size:1.19rem ;
+    color: rgb(0, 0, 0); 
+    font-weight:600 ;
+}
+.card-list .card-link .card-button{
+    height: 35px;
+    width: 35px;
+    color: rgb(255, 78, 128);
+    background: none;
+    cursor: pointer;
+    border-radius:50%;
+    margin: 30px 0 5px;
+    border: 2px solid rgb(255, 91, 137);
+    transform: rotate(-45deg);
+    transition:0.4s ease;
+
+}
+.card-list .card-link:hover .card-button{
+    background:rgb(252, 81, 138) ;
+    color: black;
+}
+.card-wrapper .swiper-pagination-bullet{
+    height: 13px; 
+    width: 13px;
+    opacity: 0.5;
+    background:rgb(252, 81, 138) ;
+}
+.card-wrapper .swiper-pagination-bullet-active{
+    opacity: 1;
+   
+}
+.card-wrapper .swiper-slide-button{
+    color:rgb(252, 81, 138);
+    margin-top: -35px;
+}
+@media screen and (max-width:768){
+    .card-wrapper{
+        margin: 0 10px 25px;
+    }
+    .card-wrapper .swiper-slide-button{
+        display: none;
+    }
+    
+}
+
+/*RODAPÉ*/
+
+footer {
+    padding: 20px 4%;
+    box-shadow:0 0 40px 10px rgb(255, 180, 205) ; ;
+} 
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer {
+    padding: 15px 0;
+    
+}
+.borda{
+    border-top: 2px solid rgb(250, 175, 196); 
+}
+footer .line-footer p i{
+    color:rgb(252, 80, 137) ;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color:rgb(252, 80, 137) ;
+    text-decoration: none;
+    
+}
+
+
+
+
+
